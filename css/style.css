@@ -1,0 +1,22 @@
+* {	
+	color: #FFF;
+}
+body {
+	background-color: black;
+}
+header {
+	border-bottom: 1px solid grey;
+	font-family: 'Creepster', cursive;
+}
+footer,h3 {
+	font-family: 'Creepster', cursive;
+}
+p{
+	font-family: 'Space Mono', monospace;
+}
+figure {
+	padding: 20px 0px;
+}
+.modal-title,.modal-body,.modal-footer {
+	color: #000;
+}

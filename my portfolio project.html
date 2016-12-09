@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>my portfolio site</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono:700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+	<header class="row">
+		<div class="col-md-6">
+			<img src="img/logo.jpg" alt="my logo">
+		</div>
+		<div class="col-md-6 text-right text-uppercase">
+			<h1>journey into space</h1>
+			<h3 class="text-capitalize">far and beyond</h3>
+		</div>
+	</header>
+	<figure class="row">
+		<div class="col-md-12">
+			<img class="img-responsive" src="img/main.jpg" alt="somewhere, something incredible is waiting to be known">
+		</div>
+	</figure>
+	<p class="text-justify">
+		There are thousands of other planets out there. We have eight planets in our Solar System. However, outside of our Solar System there are thousands of other planets. The extra-solar planets or exo-planets are in orbit around another star. So far we have almost 1800 confirmed new worlds, with another 3000 awaiting confirmation. Astronomers are looking to a star’s goldilocks zone for planets that may be habitable, just like the Earth. The majority of planets discovered so far are hot gas giant planets.
+	</p>
+	<div class="row">
+		<div class="col-md-12 text-left text-capitalize">
+			<h3>what's out there!</h3>
+		</div>
+	</div>
+	<footer class="row text-center text-uppercase">
+		<div class="col-md-6">
+			<img class="img-responsive" src="img/solarsystem.jpg" alt="our solar system" data-toggle="modal" data-target="#solarsystem">
+            <h2>solar system</h2>
+			<p><a href="https://en.wikipedia.org/wiki/Solar_System">know more!</a></p>
+		</div>
+		<div class="col-md-6">
+			<img class="img-responsive" src="img/home.jpg" alt="out position in the large galaxy" data-toggle="modal" data-target="#galaxy">
+			<h2 >galaxies</h2>
+			<p><a href="https://en.wikipedia.org/wiki/Galaxy">know more!</a></p>
+		</div>
+		<div class="col-md-6">
+			<img class="img-responsive" src="img/warmhole.jpg" alt="warm holes" data-toggle="modal" data-target="#warmhole">
+			<h2 >warm hole</h2>
+			<p><a href="https://en.wikipedia.org/wiki/Wormhole">know more!</a></p>
+		</div>
+		<div class="col-md-6">
+			<img class="img-responsive" src="img/blackhole.jpg" alt="black holes" data-toggle="modal" data-target="#blackhole">
+			<h2 >black hole</h2>
+			<p><a href="https://en.wikipedia.org/wiki/Black_hole">know more!</a></p>
+		</div>
+	</footer>
+
+<!-- for modal -->
+	 <div class="modal fade" id="solarsystem" tabindex="-1" role="dialog" aria-labelledby="solar-system" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="solar-system">what is solar system?</h4>
+                </div>
+                <div class="modal-body text-justify">
+                    <img class="img-responsive text-center" src="img/solarsystemcopy.jpg" alt="solar system">
+                   		Our solar system consists of an average star we call the Sun, the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto. It includes: the satellites of the planets; numerous comets, asteroids, and meteoroids; and the interplanetary medium.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default text-center" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="galaxy" tabindex="-1" role="dialog" aria-labelledby="galaxies" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="galaxies">what is galaxy?</h4>
+                </div>
+                <div class="modal-body text-justify">
+                    <img class="img-responsive text-center" src="img/homecopy.jpg" alt="our galaxy">
+                    	A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.The word galaxy is derived from the Greek galaxias, literally "milky", a reference to the Milky Way. Galaxies range in size from dwarfs with just a few billion stars to giants with one hundred trillion stars, each orbiting its galaxy's center of mass. Galaxies are categorized according to their visual morphology as elliptical, spiral and irregular. Many galaxies are thought to have black holes at their active centers. The Milky Way's central black hole, known as Sagittarius A*, has a mass four million times greater than the Sun.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default text-center" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="warmhole" tabindex="-1" role="dialog" aria-labelledby="warm-hole" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="warm-hole">what is warm hole?</h4>
+                </div>
+                <div class="modal-body text-justify">
+                    <img class="img-responsive text-center" src="img/warmholecopy.jpg" alt="warmhole">
+                    	A wormhole or "Einstein-Rosen Bridge" is a hypothetical topological feature that would fundamentally be a shortcut connecting two separate points in spacetime. A wormhole may connect extremely long distances such as a billion light years or more, short distances such as a few feet, different universes, and different points in time. A wormhole is much like a tunnel with two ends, each at separate points in spacetime.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default text-center" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="blackhole" tabindex="-1" role="dialog" aria-labelledby="black-hole" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="black-hole">what is black hole?</h4>
+                </div>
+                <div class="modal-body text-justify">
+                    <img class="img-responsive text-center" src="img/blackholecopy.jpg" alt="blackhole">
+                   		 A black hole is a place in space where gravity pulls so much that even light can not get out. The gravity is so strong because matter has been squeezed into a tiny space. This can happen when a star is dying. Because no light can get out, people can't see black holes. They are invisible.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default text-center" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
